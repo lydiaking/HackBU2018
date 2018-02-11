@@ -14,7 +14,6 @@ body, html {
     color: #777;
     line-height: 1.8;
 }
-
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
@@ -22,28 +21,23 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url('https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/596/667/datas/original.png');
     min-height: 100%;
 }
-
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url("http://wordpress.prenda.co/wp-content/uploads/2016/10/coding-e1476816404552.jpeg");
     min-height: 400px;
 }
-
 /* Third image (Contact) */
 .bgimg-3 {
     background-image: url("/w3images/parallax3.jpg");
     min-height: 400px;
 }
-
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
-
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -91,24 +85,38 @@ body, html {
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">Enjoy!</h3>
-  <p class="w3-center"><em>Enter a sentence to see what you'll <br> get on the Myers-Briggs Personality Test</em></p><br>
+  <p class="w3-center"><em>Here is an Exploratory Analysis of How Different Myers-Briggs Types Interact in Comment Sections on the Web</em></p><br>
+  <img src="TypeIndicatorsPlot1.png">
+  <img src="TypeIndicatorsPlot3.png">
+  <img src="TypeIndicatorsPlot2.png">
+  <p>Below is an analysis of specific word usage by each type indicator. Each chart represents the words that are most heavily preferred by one variant of a type indicator compared to it's opposite variant. i.e.: "Most preferred by Introverts in comparison to Extroverts. </p>
+  <img src="IntrovsExtropic1.png">
+  <img src="IntrovsExtropic2.png">
+  <img src="JvPpic1.png">
+  <img src="JvPpic2.png">
+  <img src="NvSPic1.png">
+  <img src="NvSPic2.png">
+  <img src="TvFPic1.png">
+  <img src="TvFPic2.png">
+ 
 
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-        </div>
-       <input class="w3-input w3-border" type="text" placeholder="How are you feeling today?" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i>Enter
-        </button>
-      </form>
-    </div>
-  </div>
-</div>
+<!—- <div class="w3-content w3-container w3-padding-64" id="contact"> 
+<!—-   <div class="w3-row w3-padding-32 w3-section"> 		
+<!—-     <div class="w3-col m4 w3-container">				
+<!—-     </div>								
+<!—-     <div class="w3-col m8 w3-panel">
+<!—-       <form action="/action_page.php" target="_blank">		
+<!—-         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">			
+<!—-         </div>											
+<!—-        <input class="w3-input w3-border" type="text" placeholder="How are you feeling today?" required name="Message">	
+<!—-         <button class="w3-button w3-black w3-right w3-section" type="submit">		
+<!—-           <i class="fa fa-paper-plane"></i><!—-Enter—>		
+<!—-         </button>							
+<!—-       </form>							
+<!—-     </div>								
+<!—-   </div>								
+<!—- </div>								
+
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
@@ -121,14 +129,14 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT THIS PROJECT</h3>
   <p class="w3-center"><em>Find your Myers-Briggs Personality</em></p>
-  <p>Brief Explanation of Project:<br>Explain and Cite the Source Data:<br>Explain the Machine Learning Mode:<br></p>
+  <p>Brief Explanation of Project: Currently a demonstrative tool for exploratory analysis on the different types within the MBTI<br>Explain and Cite the Source Data: This data was sourced primarily from an online dataset available thanks to PersonalityCafe.com<br>Languages and Packages Used: HTML, CSS, python, numphy, pandas, matplotlib, sklearn, re, seaborn, nltk<br></p>
   <div class="w3-row" style="font-size: 12px;">
     <div class="w3-col m6 w3-left w3-padding-small" style="width:33.33%">
       <p>Lydia King<br>Bio: Currently a Senior double majoring in Mathematical Sciences and Economic Analysis at Binghamton University<br>Contact Info: lking1@binghamton.edu<br><br></p>
     </div>
 
     <div class="w3-col m6 w3-left w3-padding-small" style="width:33.33%">
-      <p>Eric Ravens<br>Bio:<br>Contact Info:<br><br></p>
+      <p>Eric Ravens<br>Bio: Currently a Senior majoring in Accounting and Minoring in Computer Science at Binghamton University<br>Contact Info: eravens1@binghamton.edu<br><br></p>
     </div>
 
     <div class="w3-col m6 w3-left w3-padding-small" style="width:33.33%">
